@@ -5,7 +5,7 @@ def timer(fn):
         start_time = time.time()
         res = fn()
         time.sleep(1)
-        print('Function spent  - 'start_time - time.time())
+        print('Function spent: ' , start_time - time.time())
     return check_time
 
 
